@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{ 
+    html, body, #root {
+        @apply h-full bg-backdrop
+    }
+    #root{
+        @apply flex flex-col
+    }
+    .wrapper{
+        height: 100%;
+        @apply flex
+    }
+}
