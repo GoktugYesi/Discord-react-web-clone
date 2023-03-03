@@ -61,7 +61,7 @@ function Channels() {
                 </div>
                 <div className="flex items-center p-1">
                     <Icon name="metinIcon" width={20} height={20} className="text-channelIcon"/>
-                    <span className="text-s text-white pl-1">📧-destek-sitemi</span>
+                    <span className="text-s text-link pl-1">📧-destek-sitemi</span>
                 </div>
 
                 <div className="flex justify-between items-center mt-4  ">
@@ -71,19 +71,19 @@ function Channels() {
 
                 <div className="flex items-center p-1">
                     <Icon name="announcementsIcon" width={20} height={20} className="text-channelIcon"/>
-                    <span className="text-s text-white pl-1">📢│genel-duyuru</span>
+                    <span className="text-s text-link pl-1">📢│genel-duyuru</span>
                 </div>
                 <div className="flex items-center p-1">
                     <Icon name="metinIcon" width={20} height={20} className="text-channelIcon"/>
-                    <span className="text-s text-white pl-1">💬│genel-sohbet</span>
+                    <span className="text-s text-link pl-1">💬│genel-sohbet</span>
                 </div>
                 <div className="flex items-center p-1">
                     <Icon name="rullerIcon" width={20} height={20} className="text-channelIcon"/>
-                    <span className="text-s text-white pl-1">📋│kurallar</span>
+                    <span className="text-s text-link pl-1">📋│kurallar</span>
                 </div>
                 <div className="flex items-center p-1">
                     <Icon name="metinIcon" width={20} height={20} className="text-channelIcon"/>
-                    <span className="text-s text-white pl-1">💻│bot-komut</span>
+                    <span className="text-s text-link pl-1">💻│bot-komut</span>
                 </div>
             </div>
 

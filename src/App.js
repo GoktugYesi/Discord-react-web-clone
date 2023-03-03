@@ -1,5 +1,5 @@
 import Sidebar from './components/Sidebar';
-import Topbar from './components/Topbar'
+import Chat from './components/Chat'
 
 import './styles/style.css';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='wrapper'>
       <Sidebar />
-      <Topbar />
+      <Chat />
     </div>
   );
 }

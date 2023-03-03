@@ -1,7 +1,9 @@
+import Topbar from './Topbar'
+
 function Chat() {
     return (
-        <div>
-
+        <div className='w-full'>
+            <Topbar />
         </div>
     )
 }
