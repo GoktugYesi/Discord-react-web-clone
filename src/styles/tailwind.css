@@ -13,4 +13,7 @@
         height: 100%;
         @apply flex
     }
+    .chat{
+        width: calc(100% - 240px);
+    }
 }
