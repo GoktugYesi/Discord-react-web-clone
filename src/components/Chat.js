@@ -8,36 +8,21 @@ function Chat() {
 
             
                 <div className="flex items-center justify-between px-4 py-3 text-sm text-link">
+                    <div className="flex flex-col">
                     <div className="flex">
-                            <div className="bg-backdrop w-10 h-10 flex justify-center items-center rounded-full">
-                                <div className="relative w-full h-full overflow-hidden rounded-full">
-                                    <Icon name="badduckLogo" width={40} height={40} className="w-full h-full object-cover"/>
-                                </div>
+                        <div className="bg-backdrop w-10 h-10 flex justify-center items-center rounded-full">
+                            <div className="relative w-full h-full overflow-hidden rounded-full">
+                                <Icon name="badduckLogo" width={40} height={40} className="w-full h-full object-cover"/>
                             </div>
+                        </div>
+                        
                         <div className="ml-3 flex flex-col">
                             <span className="font-semibold text-discordGreen text-[16px]">BadDuck 
                                 <span className="bg-discordBlue rounded text-white font-normal text-[9px] ml-2 px-1 py-0.5">✓ BOT</span>
                                 <span className="text-xs ml-2 text-link font-normal">07.04.2021 01:07</span>
                             </span>
-                            <span className="text-[16px] text-chatlink">https://discord.gg/E5nw9CRdH6</span>
-                            {/*
+                            <a href='https://discord.gg/E5nw9CRdH6' className="text-[16px] text-chatlink">https://discord.gg/E5nw9CRdH6</a>
 
-                            <div className="flex items-center mt-2">
-                                <div className="flex items-center">
-                                    <Icon name="chatPlusIcon" width={20} height={20} className="text-discordGreen" />
-                                    <span className="text-xs text-discordGreen ml-1">Davet Et</span>
-                                </div>
-                                <div className="flex items-center ml-4">
-                                    <Icon name="chatPlusIcon" width={20} height={20} className="text-discordGreen" />
-                                    <span className="text-xs text-discordGreen ml-1">Kopyala</span>
-                                </div>
-                                <div className="flex items-center ml-4">
-                                    <Icon name="chatPlusIcon" width={20} height={20} className="text-discordGreen" />
-                                    <span className="text-xs text-discordGreen ml-1">Kapat</span>
-                                </div>
-                            </div>
-
-                            */}
 
                             <div className="flex flex-col items-start w-[432px] mt-2 h-56 rounded-md bg-channelBg">
                                 <div className="flex items-center justify-center h-16 rounded-t-md overflow-hidden relative">
@@ -65,17 +50,108 @@ function Chat() {
                                         
 
                                     </div>
-                                    <button class="bg-[#248046] hover:bg-discordDarkGreen text-white w-[400px] h-10 mt-3 rounded">Katıldın</button>
+                                    <button  className="bg-[#248046] hover:bg-discordDarkGreen text-white w-[400px] h-10 mt-3 rounded">Katıldın</button>
                                 </div>
                                 
                             </div>
-
-                            
-
-
                         </div>
+                        
+                    
+
+                        
+                    
+
+                    </div>        
+                        
+                    <div className="flex mt-6">
+                        <div className="bg-backdrop w-10 h-10 flex justify-center items-center rounded-full">
+                            <div className="relative w-full h-full overflow-hidden rounded-full">
+                                <Icon name="badduckLogo" width={40} height={40} className="w-full h-full object-cover"/>
+                            </div>
+                        </div>
+                        
+                        <div className="ml-3 flex flex-col">
+                            <span className="font-semibold text-discordGreen text-[16px]">BadDuck 
+                                <span className="bg-discordBlue rounded text-white font-normal text-[9px] ml-2 px-1 py-0.5">✓ BOT</span>
+                                <span className="text-xs ml-2 text-link font-normal">07.04.2021 01:07</span>
+                            </span>
+                            <a href='https://discord.gg/E5nw9CRdH6' className="text-[16px] text-chatlink">https://discord.gg/aYVd8gUK</a>
+
+
+                            <div className="flex flex-col items-start w-[432px] mt-2 h-56 rounded-md bg-channelBg">
+                                <div className="flex items-center justify-center h-16 rounded-t-md overflow-hidden relative">
+                                        <Icon name="helpIcon" width={432} height={64}/>
+                                </div>
+                                <div className="flex flex-col items-start justify-center w-full p-4">
+
+                                    <span className="card-title text-xs text-left font-bold">BİR SUNUCUYA KATILMAK İÇİN DAVET EDİLDİN</span>
+                                    
+                                    <div className="flex ">
+                                        <div className="bg-backdrop w-12 h-12 flex justify-center items-center rounded-[15px] mt-3">
+                                            <div className="relative w-full h-full overflow-hidden rounded-[15px]">
+                                                <Icon name="goktugLogo" width={48} height={48} className="w-full h-full object-cover"/>
+                                            </div>
+                                        </div>
+                                        <div className="ml-3 flex flex-col">
+                                        <span className="card-title text-[16px] text-left mt-4 font-bold ml-2">🎃│GOKTUG YESİL</span>
+                                            <div className="flex items-center ml-2 mt-1">
+                                                <div className="bg-discordGreen w-2 h-2 rounded-full"></div>
+                                                <span className="card-title text-sm ml-1">15 Çevrimiçi</span>
+                                                <div className="flex bg-gray-500 w-2 ml-5 h-2 rounded-full"></div>
+                                                <span className="card-title text-sm ml-1">784 Çevrimdışı</span>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <button className="bg-[#248046] hover:bg-discordDarkGreen text-white w-[400px] h-10 mt-3 rounded">Katıldın</button>
+                                </div>
+                                
+                            </div>
+                        </div>                   
+                    </div>  
+                    
+                    <div className="flex mt-6">
+                        <div className="bg-backdrop w-10 h-10 flex justify-center items-center rounded-full">
+                            <div className="relative w-full h-full overflow-hidden rounded-full">
+                                <Icon name="goktugYesilpp" width={40} height={40} className="w-full h-full object-cover"/>
+                            </div>
+                        </div>
+                        <div className="ml-3 flex flex-col">
+                            <span className="font-semibold text-discordGreen text-[16px]">BadDuck 
+                                <span className="bg-discordBlue rounded text-white font-normal text-[9px] ml-2 px-1 py-0.5">✓ BOT</span>
+                                <span className="text-xs ml-2 text-link font-normal">07.04.2021 01:07</span>
+                            </span>
+                            <span className="text-[16px] text-link">Goktug Yesil Github:   
+                            <a href='https://github.com/goktugyesi' className="text-[16px] text-chatlink"> https://github.com/goktugyesi</a>
+                            </span>
+                        </div>     
+                    </div> 
+
+                    <div className="flex mt-6">
+                        <div className="bg-backdrop w-10 h-10 flex justify-center items-center rounded-full">
+                            <div className="relative w-full h-full overflow-hidden rounded-full">
+                                <Icon name="goktugYesilpp" width={40} height={40} className="w-full h-full object-cover"/>
+                            </div>
+                        </div>
+                        <div className="ml-3 flex flex-col">
+                            <span className="font-semibold text-discordGreen text-[16px]">BadDuck 
+                                <span className="bg-discordBlue rounded text-white font-normal text-[9px] ml-2 px-1 py-0.5">✓ BOT</span>
+                                <span className="text-xs ml-2 text-link font-normal">07.04.2021 01:07</span>
+                            </span>
+                            <span className="text-[16px] text-link">Goktug Yesil Linkedin:   
+                            <a href='https://www.linkedin.com/in/goktugyesil/' className="text-[16px] text-chatlink"> https://www.linkedin.com/in/goktugyesil/</a>
+                            </span>
+                        </div>     
+                    </div> 
+
                     </div>
+                    
+                    
                 </div>
+ 
+                    
+
             
 
 

@@ -94,7 +94,7 @@ const RullerIcon = ({ width, height }) => {
 
 const GoktugYesilpp = ({ width, height }) => {
     return (
-        <img src="https://cdn.discordapp.com/avatars/323255914880696320/aa26c664e48954a4e8c0bb18e5dcc46c.webp?size=32" alt=" " width={width} height={height} aria-hidden="true"></img>
+        <img src="https://cdn.discordapp.com/avatars/323255914880696320/aa26c664e48954a4e8c0bb18e5dcc46c.webp?size=80" alt=" " width={width} height={height} aria-hidden="true"></img>
     )
 }
 
