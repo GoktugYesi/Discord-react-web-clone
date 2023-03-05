@@ -166,6 +166,13 @@ const ChatPlusIcon = ({ width, height }) => {
     )
 }
 
+const BackgrondImage = ({ width, height }) => {
+    return (
+        <img src="https://cdn.discordapp.com/splashes/713870918786744371/60e6c332127f83e78e113e88a728f2fd.jpg?size=480" alt=" " width={width} height={height} aria-hidden="true"></img>
+    )
+        
+}
+
 
 const Icon = ({ name, width, height }) => {
     const icons = {
@@ -193,7 +200,8 @@ const Icon = ({ name, width, height }) => {
         searchIcon: SearchIcon,
         postIcon: PostIcon,
         helpIcon: helpIcon,
-        chatPlusIcon: ChatPlusIcon
+        chatPlusIcon: ChatPlusIcon,
+        backgrondImage: BackgrondImage
     }
 
     const Component = icons[name]

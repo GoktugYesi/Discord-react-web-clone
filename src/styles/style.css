@@ -620,12 +620,20 @@ html, body, #root {
   margin-left: 0.25rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
 .ml-\[-4px\] {
@@ -646,6 +654,10 @@ html, body, #root {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-4 {
@@ -680,6 +692,14 @@ html, body, #root {
   height: 3.5rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-20 {
   height: 5rem;
 }
@@ -690,6 +710,10 @@ html, body, #root {
 
 .h-5 {
   height: 1.25rem;
+}
+
+.h-56 {
+  height: 14rem;
 }
 
 .h-8 {
@@ -748,6 +772,14 @@ html, body, #root {
   width: 2rem;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[432px\] {
+  width: 432px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -758,6 +790,10 @@ html, body, #root {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -788,9 +824,26 @@ html, body, #root {
   border-radius: 9999px;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .rounded-r {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
+}
+
+.rounded-t-md {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-t-2 {
@@ -804,6 +857,11 @@ html, body, #root {
 .border-backdrop {
   --tw-border-opacity: 1;
   border-color: rgb(49 51 56 / var(--tw-border-opacity));
+}
+
+.border-blue-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(29 78 216 / var(--tw-border-opacity));
 }
 
 .border-profileBG {
@@ -821,6 +879,11 @@ html, body, #root {
   background-color: rgb(49 51 56 / var(--tw-bg-opacity));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .bg-channelBg {
   --tw-bg-opacity: 1;
   background-color: rgb(43 45 49 / var(--tw-bg-opacity));
@@ -836,6 +899,21 @@ html, body, #root {
   background-color: rgb(30 31 34 / var(--tw-bg-opacity));
 }
 
+.bg-discordBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 101 242 / var(--tw-bg-opacity));
+}
+
+.bg-discordGreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 165 90 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
 .bg-profileBG {
   --tw-bg-opacity: 1;
   background-color: rgb(35 36 40 / var(--tw-bg-opacity));
@@ -846,12 +924,26 @@ html, body, #root {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#248046\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 128 70 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   object-fit: cover;
 }
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .px-2 {
@@ -862,6 +954,16 @@ html, body, #root {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 
 .py-3 {
@@ -909,8 +1011,20 @@ html, body, #root {
   padding-top: 0.75rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[9px\] {
+  font-size: 9px;
 }
 
 .text-lg {
@@ -936,6 +1050,10 @@ html, body, #root {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -943,6 +1061,11 @@ html, body, #root {
 .text-channelIcon {
   --tw-text-opacity: 1;
   color: rgb(130 133 143 / var(--tw-text-opacity));
+}
+
+.text-chatlink {
+  --tw-text-opacity: 1;
+  color: rgb(0 168 252 / var(--tw-text-opacity));
 }
 
 .text-discordGreen {
@@ -960,6 +1083,11 @@ html, body, #root {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
@@ -973,6 +1101,11 @@ html, body, #root {
   border-radius: 15px;
 }
 
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-discordBlue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(88 101 242 / var(--tw-bg-opacity));
@@ -981,6 +1114,11 @@ html, body, #root {
 .hover\:bg-discordGreen:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(35 165 90 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-discordDarkGreen:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 99 52 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover {
