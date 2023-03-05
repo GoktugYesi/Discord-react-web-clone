@@ -18,6 +18,7 @@ module.exports = {
         channelWorld: "#41434a",
         channelIcon: "#82858f",
         chatlink: "#00a8fc",
+        hover: "#36393f",
       },
       width: {
         '18': '4.5rem',
