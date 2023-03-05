@@ -118,9 +118,8 @@ function Chat() {
                             </div>
                         </div>
                         <div className="ml-3 flex flex-col">
-                            <span className="font-semibold text-discordGreen text-[16px]">BadDuck 
-                                <span className="bg-discordBlue rounded text-white font-normal text-[9px] ml-2 px-1 py-0.5">✓ BOT</span>
-                                <span className="text-xs ml-2 text-link font-normal">07.04.2021 01:07</span>
+                            <span className="font-semibold text-discordGreen text-[16px]">Goktug Yesil 
+                                <span className="text-xs ml-2 text-link font-normal">04.03.2023 01:07</span>
                             </span>
                             <span className="text-[16px] text-link">Goktug Yesil Github:   
                             <a href='https://github.com/goktugyesi' className="text-[16px] text-chatlink"> https://github.com/goktugyesi</a>
@@ -135,9 +134,8 @@ function Chat() {
                             </div>
                         </div>
                         <div className="ml-3 flex flex-col">
-                            <span className="font-semibold text-discordGreen text-[16px]">BadDuck 
-                                <span className="bg-discordBlue rounded text-white font-normal text-[9px] ml-2 px-1 py-0.5">✓ BOT</span>
-                                <span className="text-xs ml-2 text-link font-normal">07.04.2021 01:07</span>
+                            <span className="font-semibold text-discordGreen text-[16px]">Goktug Yesil  
+                                <span className="text-xs ml-2 text-link font-normal">04.03.2023 01:07</span>
                             </span>
                             <span className="text-[16px] text-link">Goktug Yesil Linkedin:   
                             <a href='https://www.linkedin.com/in/goktugyesil/' className="text-[16px] text-chatlink"> https://www.linkedin.com/in/goktugyesil/</a>
