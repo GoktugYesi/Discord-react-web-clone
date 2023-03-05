@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Discord React Web Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application that clones the interface of the Discord web application. It provides a learning experience for the developer, as it was made as an example project to learn React.
 
-## Available Scripts
+## EN: Features
 
-In the project directory, you can run:
+- A full clone of the Discord web application interface
+- List of servers on the left side
+- List of channels for the selected server
+- List of messages sent in the channel
+- User profile pictures and names
 
-### `npm start`
+## TR: Özellikler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Discord web uygulamasının arayüzünün tam bir klonu
+- Sol tarafta sunucuların listesi
+- Seçilen sunucunun kanallarının listesi
+- Kanalda gönderilen mesajların listesi
+- Kullanıcıların profil resimleri ve adları
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used (Kullanılan Teknolojiler)
 
-### `npm test`
+- React
+- Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation (Kurulum)
 
-### `npm run build`
+To run this project on your own computer, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this project:
+```
+git clone https://github.com/GoktugYesi/Discord-react-web-clone.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. In the root directory of the project, install dependencies by running the following command:
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. To start the application, run the following command:
+```
+npm start
+```
+EN: This will run the application at http://localhost:3000.
+TR: Bu, uygulamayı http://localhost:3000 adresinde çalıştıracaktır.
+## Screenshots
+The following screenshots show various parts of the Discord React Web Clone project:
 
-### `npm run eject`
+![Uygulama Ekran Görüntüsü](https://cdn.discordapp.com/attachments/1080913733276147753/1081951327745212466/Screenshot_3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Uygulama Ekran Görüntüsü](https://cdn.discordapp.com/attachments/1080913733276147753/1081952820342837278/Screenshot_4.png)
