@@ -1,6 +1,8 @@
+
 # Discord React Web Clone
 
 This project is a React application that clones the interface of the Discord web application. It provides a learning experience for the developer, as it was made as an example project to learn React.
+
 
 ## EN: Features
 
@@ -23,6 +25,13 @@ This project is a React application that clones the interface of the Discord web
 - React
 - Tailwind CSS
 
+
+
+## Demo
+
+Demo of the last version made so far
+
+https://discord.mirketbilisim.com/
 ## Installation (Kurulum)
 
 To run this project on your own computer, follow these steps:
@@ -48,4 +57,8 @@ The following screenshots show various parts of the Discord React Web Clone proj
 
 ![Uygulama Ekran Görüntüsü](https://cdn.discordapp.com/attachments/1080913733276147753/1081951327745212466/Screenshot_3.png)
 
-![Uygulama Ekran Görüntüsü](https://cdn.discordapp.com/attachments/1080913733276147753/1081952820342837278/Screenshot_4.png)
+![Uygulama Ekran Görüntüsü](https://cdn.discordapp.com/attachments/1080913733276147753/1081950437172838420/Screenshot_3.png)
+
+
+
+  
